@@ -7,8 +7,6 @@ package ClothingStore_OOP;
 import java.awt.Component;
 import java.awt.TextField;
 import javax.swing.JTextField;
-import javax.swing.UIManager;
-import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.UnsupportedLookAndFeelException;
 
 
@@ -607,7 +605,6 @@ public class ClothingStore_OOP extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(ClothingStore_OOP.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
- UIManager.setLookAndFeel("com.jtattoo.plaf.aluminium.AluminiumLookAndFeel");
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {

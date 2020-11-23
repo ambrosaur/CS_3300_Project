@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Anam Ali
+ * @author Anam Ali & Reggie Andes
  */
 public class ParentClass {
     //variables for the tee shirts
@@ -18,11 +18,6 @@ public class ParentClass {
     public double Stevelacy;
     public double Clairo;
     public double Greenday;
-    //variables for the subcription box
-    public double Onemonth;
-    public double Threemonths;
-    public double Ninemonth;
-    public double Twelvemonth;
     
     //this variable is going to be the total amount before tax and shipping
     public double TotalTee;
@@ -47,7 +42,6 @@ public class ParentClass {
             System.exit(0);
             }
         }
- 
         
    //prices
    //variables for the tee shirts
@@ -67,4 +61,21 @@ public class ParentClass {
         double FindTax = Amount -(Amount* tax); 
         return FindTax;
     }
+
+    // recursion for factorial print out
+    public void iFactorial(){
+        int num = 8;
+        long factorial = multiplyNumbers(num);
+        System.out.println("Factorial of " + num + " = " + factorial);
+    }
+    public long multiplyNumbers(int num)
+    {
+        if (num >= 1)
+            return num * multiplyNumbers(num - 1);
+        else
+            return 1;
+    }
+
+    
 }
+

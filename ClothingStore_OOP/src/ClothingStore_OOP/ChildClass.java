@@ -7,7 +7,7 @@ package ClothingStore_OOP;
 
 /**
  *
- * @author Anam Ali
+ * @author Anam Ali & Reggie Andes
  */
 public class ChildClass extends ParentClass {
     //this class inheriants everything from Parent Class
